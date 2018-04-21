@@ -1,0 +1,30 @@
+Name: Jonathan Bauman
+Email: jzb5636@psu.edu 
+Class: CMPSC 122, Section 002
+Homework 4
+Due Date: November 16, 2016
+
+Commands:
+
+To compile calculator.cxx:
+g++ -ansi -pedantic -Wall calculator.cxx -o calculator
+
+To run calculator:
+./calculator
+
+list.h:
+creates a double linked list to be used for a stack
+
+the functions in this file add head/tail, remove head/tail, return head/tail, create head/tail
+
+
+
+stack.h:
+uses the link.h header file to call its function in order to generate a stack.
+
+the functions in the stack add to the end of the stack, remove the end of the stack, and clear the stack
+
+calculator.cxx:
+contains the professors test cases and the converstion from infix to postfix as well as the evaluation of the post fix.
+
+
