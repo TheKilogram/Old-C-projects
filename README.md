@@ -5,4 +5,4 @@ Calculator uses linked lists to crate a stack data structure to preform calculat
 
 BST is a binary Search tree written in C++
 
-Graphics contains multiple programs compleated for computer graphics
+Graphics contains multiple programs compleated for computer graphics all writen in C++
