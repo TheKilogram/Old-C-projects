@@ -1,0 +1,55 @@
+Jonathan Bauman
+jzb5636@psu.edu
+cmpsc122 section 2
+homework 5
+due 7 december 2016
+
+to compile:
+g++ -ansi -pedantic -Wall Sort.cxx -o sort
+
+to run:
+./sort
+
+this homework contains a header file BST.h and a cxx file Sort.cxx.
+
+BST.h creates, searches and deletes a binary tree
+
+Sort.cxx calles the header file and compairs binary tree sorting and selection sort sorting
+
+Test 7 results:
+
+Test 7: compare sorting times by selection sort and by building BST
+    1) sorting 10 random values
+       BstSort      (..) takes 0.000004 secs
+       SelectionSort(..) takes 0.000001 secs
+       Success
+    2) sorting 100 random values
+       BstSort      (..) takes 0.000027 secs
+       SelectionSort(..) takes 0.000043 secs
+       Success
+    3) sorting 500 random values
+       BstSort      (..) takes 0.000149 secs
+       SelectionSort(..) takes 0.000883 secs
+       Success
+    4) sorting 1000 random values
+       BstSort      (..) takes 0.000307 secs
+       SelectionSort(..) takes 0.003315 secs
+       Success
+    5) sorting 5000 random values
+       BstSort      (..) takes 0.001876 secs
+       SelectionSort(..) takes 0.074978 secs
+       Success
+    6) sorting 10000 random values
+       BstSort      (..) takes 0.002880 secs
+       SelectionSort(..) takes 0.219376 secs
+       Success
+    7) sorting 50000 random values
+       BstSort      (..) takes 0.011465 secs
+       SelectionSort(..) takes 5.251658 secs
+       Success
+    8) sorting 100000 random values
+       BstSort      (..) takes 0.026960 secs
+       SelectionSort(..) takes 21.418661 secs
+       Success
+
+The Binary tree is a faster sorting algorithym than the selection sort when the arrays get large. This is because the selection sort needs to go through the entire array when the binary tree only needs to go the hight of the tree making the selection sort O(n) and the binary tree O(ln n)
