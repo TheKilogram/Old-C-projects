@@ -1,0 +1,9 @@
+int col =((j & 0x08) == 0) ^ ((i & 0x08) == 0);
+			
+rester[i][j].r = static_cast<float>(col);	//red is either 0 or 1 (0 or 255 at output step)
+rester[i][j].g = static_cast<float>(col & 0x00);//green is zero
+rester[i][j].b = static_cast<float>(col & 0x11);//blue is either 0 or 1 (0 or 255 at output step)
+
+this block of code is getting ev
+
+

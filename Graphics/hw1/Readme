@@ -1,0 +1,13 @@
+cmpsc 457
+section 1
+Jonathan Bauman
+jzb5636
+
+I used this video https://www.youtube.com/watch?v=fbH005SzEMc to learn more about exporting to a .ppm file
+
+To compile:
+g++ -ansi -pedantic -Wall -o hw1 hw1.cxx
+
+To run:
+./hw1 200 500 hw1.ppm
+
